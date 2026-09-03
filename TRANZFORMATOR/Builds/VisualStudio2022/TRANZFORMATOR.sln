@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRANZFORMATOR - Standalone Plugin", "TRANZFORMATOR_StandalonePlugin.vcxproj", "{213DF89C-0784-410C-B447-C45AC05FDFDD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688} = {0FEE5BF9-E4E7-628A-7F71-3A4415480688}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRANZFORMATOR - VST3", "TRANZFORMATOR_VST3.vcxproj", "{FFA13A41-4445-2079-9CD4-148495063C8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688} = {0FEE5BF9-E4E7-628A-7F71-3A4415480688}
+		{8FC03544-FE2C-3F39-9A38-4D7F112106C7} = {8FC03544-FE2C-3F39-9A38-4D7F112106C7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRANZFORMATOR - Shared Code", "TRANZFORMATOR_SharedCode.vcxproj", "{0FEE5BF9-E4E7-628A-7F71-3A4415480688}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TRANZFORMATOR - VST3 Manifest Helper", "TRANZFORMATOR_VST3ManifestHelper.vcxproj", "{8FC03544-FE2C-3F39-9A38-4D7F112106C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA13A41-4445-2079-9CD4-148495063C8C}.Debug|x64.ActiveCfg = Debug|x64
+		{FFA13A41-4445-2079-9CD4-148495063C8C}.Debug|x64.Build.0 = Debug|x64
+		{FFA13A41-4445-2079-9CD4-148495063C8C}.Release|x64.ActiveCfg = Release|x64
+		{FFA13A41-4445-2079-9CD4-148495063C8C}.Release|x64.Build.0 = Release|x64
+		{213DF89C-0784-410C-B447-C45AC05FDFDD}.Debug|x64.ActiveCfg = Debug|x64
+		{213DF89C-0784-410C-B447-C45AC05FDFDD}.Debug|x64.Build.0 = Debug|x64
+		{213DF89C-0784-410C-B447-C45AC05FDFDD}.Release|x64.ActiveCfg = Release|x64
+		{213DF89C-0784-410C-B447-C45AC05FDFDD}.Release|x64.Build.0 = Release|x64
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688}.Debug|x64.ActiveCfg = Debug|x64
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688}.Debug|x64.Build.0 = Debug|x64
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688}.Release|x64.ActiveCfg = Release|x64
+		{0FEE5BF9-E4E7-628A-7F71-3A4415480688}.Release|x64.Build.0 = Release|x64
+		{8FC03544-FE2C-3F39-9A38-4D7F112106C7}.Debug|x64.ActiveCfg = Debug|Win32
+		{8FC03544-FE2C-3F39-9A38-4D7F112106C7}.Debug|x64.Build.0 = Debug|Win32
+		{8FC03544-FE2C-3F39-9A38-4D7F112106C7}.Release|x64.ActiveCfg = Release|Win32
+		{8FC03544-FE2C-3F39-9A38-4D7F112106C7}.Release|x64.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
