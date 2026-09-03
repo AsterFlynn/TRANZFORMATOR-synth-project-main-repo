@@ -3828,6 +3828,12 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_extra.cpp">
       <Filter>JUCE Library Code</Filter>
     </ClCompile>
+    <ClCompile Include="Oscillator.cpp">
+      <Filter>TRANZFORMATOR\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Voice.cpp">
+      <Filter>TRANZFORMATOR\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
@@ -8656,6 +8662,12 @@
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h">
       <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Oscillator.h">
+      <Filter>TRANZFORMATOR\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Voice.h">
+      <Filter>TRANZFORMATOR\Source</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
