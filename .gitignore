@@ -1,4 +1,11 @@
 .DS_Store
+.vs/
+Builds/
+*.vsidx
+*.suo
+*.user
+*.cache
+
 
 # Images
 images/avatars/
