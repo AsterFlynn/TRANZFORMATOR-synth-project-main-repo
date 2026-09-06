@@ -3081,6 +3081,7 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_basics_5.cpp" />
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_extra.cpp" />
     <ClCompile Include="Oscillator.cpp" />
+    <ClCompile Include="RNG.cpp" />
     <ClCompile Include="Voice.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -4694,6 +4695,7 @@
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h" />
     <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h" />
     <ClInclude Include="Oscillator.h" />
+    <ClInclude Include="RNG.h" />
     <ClInclude Include="Voice.h" />
   </ItemGroup>
   <ItemGroup>

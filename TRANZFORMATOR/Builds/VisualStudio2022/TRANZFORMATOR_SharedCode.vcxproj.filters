@@ -3834,6 +3834,9 @@
     <ClCompile Include="Voice.cpp">
       <Filter>TRANZFORMATOR\Source</Filter>
     </ClCompile>
+    <ClCompile Include="RNG.cpp">
+      <Filter>TRANZFORMATOR\Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\PluginProcessor.h">
@@ -8667,6 +8670,9 @@
       <Filter>TRANZFORMATOR\Source</Filter>
     </ClInclude>
     <ClInclude Include="Voice.h">
+      <Filter>TRANZFORMATOR\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
       <Filter>TRANZFORMATOR\Source</Filter>
     </ClInclude>
   </ItemGroup>
